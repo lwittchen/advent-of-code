@@ -24,7 +24,6 @@ if __name__ == "__main__":
 
     total_prio = 0
     for lines in group_by_three(file.open()):
-        print(lines)
         prio = process_badge(lines)
         total_prio += prio + 1
     
